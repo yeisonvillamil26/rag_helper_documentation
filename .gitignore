@@ -1,0 +1,8 @@
+# Enviroment
+.env
+idea/
+
+# Data
+sagemaker_documentation/
+mlruns/
+mlartifacts/
