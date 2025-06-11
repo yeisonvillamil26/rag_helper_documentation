@@ -1,6 +1,7 @@
 # Enviroment
 .env
-idea/
+.idea/
+.vscode/
 
 # Data
 sagemaker_documentation/
