@@ -35,9 +35,9 @@ def run_llm(
     query: str, chat_history: Optional[List[Dict[str, Any]]] = None
 ) -> Dict[str, Any]:
     """
-    Handles conversational queries against SageMaker docs using a RAG pipeline.
+    Handles conversational queries against documentation using a RAG pipeline.
 
-    Combines OpenSearch retrieval with conversation-aware LLM processing to provide
+    Combines OpenSearch retrieval with LLM conversation to provide
     answers grounded in documentation while maintaining chat context.
 
     Steps:
