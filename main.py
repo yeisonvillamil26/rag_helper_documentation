@@ -5,7 +5,7 @@ import os
 from tools.contants import LOCAL_DOCS_PATH
 
 # Configuration
-st.header("Sagemaker Documentation Chatbot")
+st.header("Documentation Chatbot")
 
 
 def find_md_file_by_title(title: str) -> str:
