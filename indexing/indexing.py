@@ -42,7 +42,7 @@ OPENSEARCH_URL = f"http://{OPENSEARCH_HOST}:{OPENSEARCH_PORT}"
 
 
 async def run_in_executor(func):
-    """Execute synchronous functions in an executor to avoid blocking the event loop"""
+    """Execute synchronous functions in an executor"""
     loop = asyncio.get_event_loop()
     return await loop.run_in_executor(None, func)
 

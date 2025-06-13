@@ -17,8 +17,8 @@ def main(index_name: str):
         None
     """
 
-    host = "localhost"
-    port = 9200
+    host = OPENSEARCH_HOST
+    port = OPENSEARCH_PORT
 
     client = OpenSearch(
         hosts=[{"host": host, "port": port}],
