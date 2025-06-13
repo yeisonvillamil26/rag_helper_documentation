@@ -8,6 +8,7 @@ OPENSEARCH_PASSWORD = "admin"
 INDEX_NAME = "sagemaker"
 DOCS_LOCATION = "../sagemaker_documentation"
 BULK_SIZE = 100
+LOCAL_DOCS_PATH = "sagemaker_documentation"
 
 # Models
 MODEL_EMBEDDING = "text-embedding-3-small"
